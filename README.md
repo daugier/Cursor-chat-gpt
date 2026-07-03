@@ -1,3 +1,5 @@
 # For-Cursor
 
-Dépôt ASC (assistant/chat) sans code applicatif. Utiliser le mode Ask et éviter les @ dans le chat.
+Dépôt utilisé uniquement comme espace ASC (assistant/chat), sans code applicatif.
+
+Règles appliquées (voir `.cursor/rules/asc.mdc`)

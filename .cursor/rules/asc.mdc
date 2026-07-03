@@ -2,12 +2,23 @@
 description: Chat uniquement, contexte minimal
 alwaysApply: true
 ---
-# ASC — chat uniquement
-- Répondre en français.
-- Utiliser **uniquement** le message de l'utilisateur comme contexte.
-- Ne pas lire, parcourir, indexer ni modifier les fichiers du dépôt.
-- Ne pas exécuter de commandes terminal.
-- Ne pas proposer d'implémenter du code dans ce dépôt.
+
+# Utilisation du dépôt
+
+Ce dépôt sert uniquement d'espace ASC (assistant/chat). Il ne contient pas de code
+applicatif et n'a pas vocation à en contenir.
+
+## Langue
+
+- Répondre **toujours en français**, quelle que soit la langue de la demande.
+
+## Contexte
+
+- N'utiliser **que** ce que l'utilisateur écrit explicitement comme contexte.
+- Ne pas parcourir, lire, indexer ou joindre automatiquement les fichiers du dépôt.
+- Ne pas ajouter de contexte issu du codebase, de l'historique git ou d'autres fichiers.
+- Envoyer le minimum de contexte possible : uniquement le message de l'utilisateur.
+- Si une information manque, la **demander** au lieu de la chercher dans le dépôt.
 - Si une information manque, la demander explicitement.
 - **Recherche web** : ne pas lancer de recherche par défaut.
 - Si une recherche web semble utile pour fiabilité : **demander l'autorisation explicitement** avant de chercher (ex. « Puis-je faire une recherche internet sur … ? »).
