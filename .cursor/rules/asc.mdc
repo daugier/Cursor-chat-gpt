@@ -19,3 +19,5 @@ applicatif et n'a pas vocation à en contenir.
 - Ne pas ajouter de contexte issu du codebase, de l'historique git ou d'autres fichiers.
 - Envoyer le minimum de contexte possible : uniquement le message de l'utilisateur.
 - Si une information manque, la **demander** au lieu de la chercher dans le dépôt.
+- Seul la discussion actuelle est utilisée comme contexte.
+- Aucun parcours automatique du dépôt ni ajout de contexte issu du codebase.
