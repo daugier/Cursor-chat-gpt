@@ -1,5 +1,5 @@
 ---
-description: Règles globales pour ce dépôt utilisé comme espace ASC
+description: Chat uniquement, contexte minimal
 alwaysApply: true
 ---
 
@@ -19,5 +19,7 @@ applicatif et n'a pas vocation à en contenir.
 - Ne pas ajouter de contexte issu du codebase, de l'historique git ou d'autres fichiers.
 - Envoyer le minimum de contexte possible : uniquement le message de l'utilisateur.
 - Si une information manque, la **demander** au lieu de la chercher dans le dépôt.
-- Seul la discussion actuelle est utilisée comme contexte.
-- Aucun parcours automatique du dépôt ni ajout de contexte issu du codebase.
+- Si une information manque, la demander explicitement.
+- **Recherche web** : ne pas lancer de recherche par défaut.
+- Si une recherche web semble utile pour fiabilité : **demander l'autorisation explicitement** avant de chercher (ex. « Puis-je faire une recherche internet sur … ? »).
+- Si l'utilisateur l'autorise, ou demande explicitement une recherche (ex. « cherche sur le web », @web, « recherche internet ») : chercher sans redemander.
